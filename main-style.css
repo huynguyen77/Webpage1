@@ -114,3 +114,9 @@ body{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+/*latest blogs*/
+.latest-items{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}

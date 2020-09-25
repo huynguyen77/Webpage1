@@ -157,3 +157,40 @@ body{
 	font-size: 18px;
 	line-height: 30px;
 }
+
+/*sign form*/
+.sign{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 50px 0;
+}
+
+.sign h2{
+	font-size: 24px;
+	line-height: 30px;
+	color: #333;
+	letter-spacing: 2px;
+}
+
+.sign-form input{
+	width: 70%;
+	padding: 10px;
+}
+
+.sign-form a{
+	width: 29%;
+	background: #76daff;
+	display: inline-block;
+	padding: 5px 0;
+	text-align: center;
+	font-weight: bold;
+}
+
+.sign-form a:hover{
+	color: #fff;
+}
+
+.sign-form input[type="text"]::-webkit-input-placeholder {
+  color: #3c3c3c;
+  font-size: 12px;
+}

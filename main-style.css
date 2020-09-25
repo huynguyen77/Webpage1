@@ -108,3 +108,9 @@ body{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+/*project*/
+.project-items{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}

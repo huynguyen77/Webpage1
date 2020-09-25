@@ -1,0 +1,29 @@
+.project-item{
+	width: 255px;
+}
+
+.project-content {
+	padding: 15px;
+}
+
+.project-content h3{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 30px;
+	color: #262626;
+	letter-spacing: 2px;
+}
+
+.project-content p{
+	font-size: 16px;
+	color: #777;
+	line-height: 31px;
+}
+
+.project-item:hover .project-content{
+	background: #ff3c41;
+}
+
+.project-item:hover .project-content p{
+	color: #fff;
+}

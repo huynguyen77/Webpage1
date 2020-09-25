@@ -1,0 +1,51 @@
+.latest-item{
+	display: flex;
+}
+
+.latest-content{
+	width: 285px;
+	height: 215px;
+	background: #76daff;
+	padding: 15px 20px;
+}
+
+.latest-content h4{
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 25px;
+	color: #ff0000;
+	letter-spacing: 2px;
+}
+
+.latest-content h3{
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 32px;
+	color: #222;
+	letter-spacing: 2px;
+}
+
+.latest-content p{
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+}
+
+.latest-content .btn{
+	padding: 10px;
+	border: none;
+	outline: none;
+	background: #fff;
+	color: #222;
+	font-size: 12px;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.latest-content:hover .btn{
+	background: #ff0000;
+	color: #fff;
+}

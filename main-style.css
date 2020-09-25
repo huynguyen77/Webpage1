@@ -76,5 +76,16 @@ body{
 .about-us .about-us-content .btn{
 	display: inline-block;
 	margin-top: 15px;
-	border: 2px solid #75daff;
+	border: 2px solid #76daff;
+}
+
+.about-us .about-us-content .btn:hover{
+	border: none;
+	background: #76daff;
+	color: #fff;
+}
+
+.about-us-items{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 }

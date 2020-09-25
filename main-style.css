@@ -120,3 +120,40 @@ body{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
+
+/*testimonials*/
+.testi-bg{
+	padding: 70px 0;
+	background-image: url('./images/bg_testimonial.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.testi-bg .title h1{
+	color: #fff;
+}
+
+.testi{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+.testi .avatar{
+	margin-left: 100px;
+}
+
+.testi .avatar img{
+	border: 2px solid #ccc;
+	padding: 10px;
+}
+
+.testi-content p{
+	color: #fff;
+	margin-bottom: 15px;
+}
+
+.testi-content h4{
+	color: #76daff;
+	font-size: 18px;
+	line-height: 30px;
+}

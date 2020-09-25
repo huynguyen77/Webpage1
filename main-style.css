@@ -20,6 +20,10 @@ body{
 	margin: 0 auto;
 }
 
+.m-70{
+	margin-top: 70px;
+}
+
 .header{
 	display: flex;
 	justify-content: space-between;
@@ -47,4 +51,30 @@ body{
 
 .slider img{
 	width: 100%;
+}
+
+.about-us{
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+}
+
+.about-us .about-us-content h3{
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 31px;
+	color: #3c3c3c;
+	margin-bottom: 10px;
+}
+
+.about-us .about-us-content p{
+	margin-bottom: 10px;
+}
+
+.about-us .about-us-content .btn{
+	display: inline-block;
+	margin-top: 15px;
+	border: 2px solid #75daff;
 }

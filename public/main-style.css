@@ -194,3 +194,42 @@ body{
   color: #3c3c3c;
   font-size: 12px;
 }
+
+/*footer*/
+.footer{
+	display: grid;
+	grid-template-columns: 3fr 1fr 2fr 2fr;
+	align-content: start;
+}
+
+.footer-bg{
+	background: #080808;
+	padding: 70px 0;
+}
+
+.footer-brand p{
+	padding-right: 40px;
+}
+
+.footer-brand-icon{
+	margin-top: 20px;
+}
+
+.footer-info ul{
+	list-style: none;
+	margin-top: 25px;
+}
+
+.footer-our-work .our-work-items{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 35px;
+}
+
+.contact-items{
+	margin-top: 30px;
+}
+
+.footer-info, .footer-our-work, .footer-contact{
+	margin-top: 40px;
+}

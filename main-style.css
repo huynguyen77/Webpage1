@@ -24,6 +24,7 @@ body{
 	margin-top: 70px;
 }
 
+/*header*/
 .header{
 	display: flex;
 	justify-content: space-between;
@@ -49,10 +50,12 @@ body{
 	color: #fff;
 }
 
+/*slider*/
 .slider img{
 	width: 100%;
 }
 
+/*about us*/
 .about-us{
 
 	display: grid;
@@ -88,4 +91,20 @@ body{
 .about-us-items{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*what we do*/
+.what-we-do-bg{
+	background: #1c1c1c;
+	min-height: 100px;
+	padding: 70px 0;
+}
+
+.what-we-do .title h1{
+	color: #fff;
+}
+
+.what-we-do-items{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }

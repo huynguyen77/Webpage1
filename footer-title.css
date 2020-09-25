@@ -1,0 +1,11 @@
+.footer-title h4{
+	font-size: 22px;
+	line-height: 32px;
+	/*color: #fff;*/
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+
+.footer-title span{
+	font-weight: 700;
+}

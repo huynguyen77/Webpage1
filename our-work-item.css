@@ -1,0 +1,10 @@
+.our-work-item{
+	width: 65px;
+	height: 55px;
+	border: 2px solid #999;
+	padding: 2px;
+}
+
+.our-work-item img{
+	width: 100%;
+}

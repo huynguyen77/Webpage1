@@ -1,0 +1,40 @@
+.what-we-do-item{
+	width: 255px;
+	text-align: center;
+}
+
+.what-we-do-icon{
+	width: 125px;
+	height: 125px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	margin: 10px auto;
+}
+
+.what-we-do-icon i{
+	font-size: 40px;
+	color: #fff;
+	line-height: 125px;
+}
+
+.what-we-do-content h3{
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 31px;
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.what-we-do-content p{
+	font-size: 16px;
+	line-height: 30px;
+	color: #777;
+}
+
+.what-we-do-item:hover .what-we-do-icon{
+	border-color: #76daff;
+}
+
+.what-we-do-item:hover .what-we-do-icon i{
+	color: #76daff;
+}

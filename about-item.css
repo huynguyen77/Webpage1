@@ -1,0 +1,27 @@
+.about-item{
+	width: 350px;
+	display: flex;
+}
+
+.about-item i{
+	font-size: 40px;
+	color: #76daff;
+
+}
+
+.about-item .about-content{
+	margin-left: 30px;
+}
+
+.about-item .about-content h3{
+	font-size: 20px;
+	line-height: 31px;
+	font-weight: bold;
+	color: #222;
+}
+
+.about-item .about-content p{
+	font-size: 16px;
+	line-height: 30px
+	color: #777;
+}

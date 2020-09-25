@@ -1,0 +1,33 @@
+.footer-branch-icon ul{
+	list-style: none;
+	display: flex;
+}
+
+.footer-branch-icon ul li{
+	width: 66px;
+	height: 66px;
+	margin-right: 30px;
+	text-align: center;
+}
+
+.footer-branch-icon ul li i{
+	font-size: 36px;
+	line-height: 32px;
+	color: #fff;
+	line-height: 66px;
+}
+
+.footer-branch-icon ul li:last-child{
+	margin-right: 0;
+	background: #bd081c;
+}
+
+.footer-branch-icon ul li:nth-child(1){
+	background: #3b5598;
+}
+.footer-branch-icon ul li:nth-child(2){
+	background: #00acee;
+}
+.footer-branch-icon ul li:nth-child(3){
+	background: #f77737;
+}
